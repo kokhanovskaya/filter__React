@@ -1,0 +1,43 @@
+html {
+}
+
+body {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.toolbarButtons {
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.toolbarButtons__button {
+  background: transparent;
+  border: solid 1px;
+  border-radius: 5px;
+  padding: 5px 15px;
+  transition: all 0.2s ease-in-out;
+}
+.toolbarButtons__button:hover {
+  border: solid 2px #3e3c3cd2;
+  transform: scale(1.05);
+}
+
+.toolbarButtons__button--active {
+  background-color: #3e3c3cd2;
+  color: azure;
+}
+
+.imagesList {
+  columns: 3;
+  column-gap: 16px;
+  max-width: 1200px;
+  margin-top: 40px;
+}
+
+.imagesList img {
+  width: 100%;
+  margin-bottom: 16px;
+  border-radius: 8px;
+}
