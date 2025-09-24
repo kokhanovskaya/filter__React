@@ -3,7 +3,6 @@ export default function FilterList({ onSelectFilter, filters, selected }) {
   return (
     <>
       <div className="toolbarButtons">
-        {" "}
         {filters.map((filter) => (
           <button
             key={filter}
@@ -12,10 +11,9 @@ export default function FilterList({ onSelectFilter, filters, selected }) {
             }`}
             onClick={() => onSelectFilter(filter)}
           >
-            {" "}
-            {filter}{" "}
+            {filter}
           </button>
-        ))}{" "}
+        ))}
       </div>
     </>
   );

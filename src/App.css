@@ -1,13 +1,10 @@
-html {
-}
-
 body {
   width: 80%;
   margin: 20px auto;
 }
 
 .toolbarButtons {
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: space-between;
 }
@@ -20,8 +17,7 @@ body {
   transition: all 0.2s ease-in-out;
 }
 .toolbarButtons__button:hover {
-  border: solid 2px #3e3c3cd2;
-  transform: scale(1.05);
+  transform: scale(1.1);
 }
 
 .toolbarButtons__button--active {
